@@ -1,4 +1,4 @@
-import { GetStaticProps, GetStaticPaths, GetServerSideProps } from 'next'
+import { GetServerSideProps } from 'next'
 import React, { useState } from 'react'
 import axios from 'axios'
 import { JobListing } from '../../interfaces'
